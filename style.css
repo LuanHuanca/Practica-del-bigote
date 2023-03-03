@@ -1,5 +1,6 @@
 .titulo{
     text-align: center;
+    color: rgb(255, 0, 0); transform: scale(2); transition: all 3s;
 }
 .mustache {
     width: 180px;
@@ -7,7 +8,7 @@
     left: 400px;
     border-radius: 50%;
     position: absolute;
-    color :black;
+    color :rgb(1, 30, 248);
     box-shadow: 
          150px  240px 0 0 currentColor,
          300px  240px 0 0 currentColor;
