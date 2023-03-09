@@ -3,11 +3,14 @@
     color: rgb(255, 0, 0); transform: scale(2); transition: all 3s;
 }
 body{
-    background-color: aqua;
+    width: 1000px;
+    height: 800px;
+    background-image: url("picture/pared.jpg");
+    background-repeat: repeat;
 }
 .id{
     text-align: center;
-    color: black;
+    color: white;
 }
 .mustache {
     width: 180px;
@@ -15,7 +18,7 @@ body{
     left: 400px;
     border-radius: 50%;
     position: absolute;
-    color :rgb(1, 30, 248);
+    color :white;
     box-shadow: 
          150px  240px 0 0 currentColor,
          300px  240px 0 0 currentColor;
@@ -63,7 +66,7 @@ body{
 }
 @keyframes shakeRight {
     0%{
-        transform: rotate(50 deg);
+        transform: rotate(50deg);
     }
     50%{
         transform: rotate(30deg);
